@@ -31,14 +31,16 @@ addA(3) || addA(4)
 
 // 非函数式
 var a = 1;
-function calc(){
+
+function calc() {
     ++a
 }
 calc()
 
 // 函数式
 var a = 1;
-function calc(num){
+
+function calc(num) {
     return ++num
 }
 calc(a)
