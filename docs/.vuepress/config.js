@@ -28,11 +28,11 @@ module.exports = {
             {
                 text: '求索',
                 link: '/FAQ/'
-            }, // http://localhost:8080/Wiki1001Pro/FAQ/
-            {
-                text: '仓库',
-                link: '/Store/'
-            },
+            }, 
+            // {
+            //     text: '仓库',
+            //     link: '/Store/'
+            // },
             {
                 text: '随笔',
                 link: '/Thought/'

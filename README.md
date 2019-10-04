@@ -1,14 +1,16 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /img/logo.jpg
+heroText: 小埋
+tagline: tagline~~~~
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /FAQ/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Console - 求索
+  details: 基于书签对知识点进行 整理，吸收，吐纳，归档。吾将上下而求索...
+- title: Store - 仓库
+  details: 展望云仓库而归纳整理，方便行事&培养习惯。鱼和熊掌我全都要...
+- title: Thought - 随笔
+  details: 活着，是一件最能带来满足感的事。细细琢磨吧，人生啊，有意思的很...
+footer:MIT Licensed | Copyright © 2018-present Evan You
 ---
