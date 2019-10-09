@@ -85,20 +85,20 @@ module.exports = {
                     ['/FAQ/DigestionHeap/DigestWill', '待消化']
                 ]
             },
-            {
-                title: '输出层',
-                children: [
-                    ['/FAQ/Console/A001', '#A001_VuePress'],
-                    ['/FAQ/Console/A002', '#A002_插件清单']
-                ]
-            },
+            // {
+            //     title: '输出层',
+            //     children: [
+            //         ['/FAQ/Console/A001', '#A001_VuePress'],
+            //         ['/FAQ/Console/A002', '#A002_插件清单']
+            //     ]
+            // },
             ['/FAQ/', '百科首页'],
             ['/FAQ/Pool/SkillStack', '技术栈'],
             ['/FAQ/Pool/Review', '归去来']
         ],
         // 打开Thought主页链接时生成下面这个菜单
         '/Thought/': [
-            ['/Thought/', '随笔首页'],
+            // ['/Thought/', '随笔首页'],
             {
                 title: '游记',
                 children: [

@@ -1,8 +1,8 @@
----
+<!-- ---
 title: "JavaScript版 · 剑指offer"
 date: "2019-06-23"
 permalink: "2019-06-23-algorithm-offer"
----
+--- -->
 
 ## 介绍
 
@@ -23,10 +23,3 @@ permalink: "2019-06-23-algorithm-offer"
 ## 特别鸣谢
 
 [《剑指 Offer》](https://book.douban.com/subject/6966465/)，除了“手动实现 atoi”采用的是 Leetcode 版，其余题目均来自此书。
-
-## 字符串
-
-- [01-替换空格](https://xin-tan.com/passages/2019-06-23-str-replace-empty/)
-- [02-字符串的全排列](https://xin-tan.com/passages/2019-06-23-str-perm/)
-- [03-翻转单词顺序](https://xin-tan.com/passages/2019-06-23-str-reverse-sentence/)
-- [04-实现 atoi](https://xin-tan.com/passages/2019-06-23-str-atoi/)
