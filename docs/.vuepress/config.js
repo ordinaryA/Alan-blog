@@ -16,125 +16,61 @@ module.exports = {
         lineNumbers: true // 代码块显示行号
     },
 
+
+
     // 主题参数 顶部导航栏
     themeConfig: {
-        sidebarDepth: 4, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
-        lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间,
+        sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
+        lastUpdated: '最后更新', // 文档更新时间：每个文件git最后提交的时间,
         // 顶部导航栏
-        nav: [
-            // 单项 text：显示文字，link：指向链接
-            // 这里的'/' 指的是 docs文件夹路径
-            // [以 '/' 结尾的默认指向该路径下README.md文件]
+        nav: [{
+                text: '前端算法',
+                link: '/algorithm/'
+            }, // 内部链接 以docs为根目录
             {
-                text: '求索',
-                link: '/FAQ/'
-            }, 
-            // {
-            //     text: '仓库',
-            //     link: '/Store/'
-            // },
-            {
-                text: '随笔',
-                link: '/Thought/'
-            },
-            // 多项，下拉形式
-            {
-                text: 'Concat',
-                items: [
-                    // link：指向链接也可以是外网链接
-                    {
-                        text: 'Segmentfault',
-                        link: 'https://segmentfault.com/u/mulander'
-                    },
-                ]
-            },
+                text: '博客',
+                link: 'http://obkoro1.com/'
+            }, // 外部链接
+            // 下拉列表
             {
                 text: 'GitHub',
                 items: [{
-                        text: 'GitHub首页',
-                        link: 'https://github.com/Mulander-J'
+                        text: 'GitHub地址',
+                        link: 'https://github.com/OBKoro1'
                     },
                     {
-                        text: 'Island',
-                        link: 'https://mulander-j.github.io/island/code/html/index.html'
-                    },
-                    {
-                        text: 'TimeWaster',
-                        link: 'https://mulander-j.github.io/timeWaster/demo/index.html#/'
-                    },
+                        text: '算法仓库',
+                        link: 'https://github.com/OBKoro1/Brush_algorithm'
+                    }
                 ]
-            },
+            }
         ],
     },
 
     // 侧边栏菜单( 一个模块对应一个菜单形式 )
     sidebar: {
         // 打开FAQ主页链接时生成下面这个菜单
-        '/FAQ/': [
-            //多级菜单形式
+        // docs文件夹下面的accumulate文件夹 文档中md文件 书写的位置(命名随意)
+        '/accumulate/': [
+            '/accumulate/', // accumulate文件夹的README.md 不是下拉框形式
             {
-                // 菜单名
-                title: '消化堆',
-                // 子菜单
+                title: '侧边栏下拉框的标题1',
                 children: [
-                    // ['','']=>[路径,标题]
-                    // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
-                    // 不以 '/' 结尾的就是指向.md文件             
-                    ['/FAQ/DigestionHeap/Digested', '消化过'], // '/FAQ/DigestionHeap/Digested.md'文件
-                    ['/FAQ/DigestionHeap/Digesting', '消化中'],
-                    ['/FAQ/DigestionHeap/DigestWill', '待消化']
+                    '/accumulate/JS/test', // 以docs为根目录来查找文件 
+                    // 上面地址查找的是：docs>accumulate>JS>test.md 文件
+                    // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
                 ]
-            },
-            // {
-            //     title: '输出层',
-            //     children: [
-            //         ['/FAQ/Console/A001', '#A001_VuePress'],
-            //         ['/FAQ/Console/A002', '#A002_插件清单']
-            //     ]
-            // },
-            ['/FAQ/', '百科首页'],
-            ['/FAQ/Pool/SkillStack', '技术栈'],
-            ['/FAQ/Pool/Review', '归去来']
+            }
         ],
-        // 打开Thought主页链接时生成下面这个菜单
-        '/Thought/': [
-            // ['/Thought/', '随笔首页'],
+        // docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
+        '/algorithm/': [
+            '/algorithm/',
             {
-                title: '游记',
+                title: '第二组侧边栏下拉框的标题1',
                 children: [
-                    ['/Thought/Travels/beiPing', '北平游记'],
+                    '/algorithm/simple/test'
                 ]
-            },
-            {
-                title: '年终回顾',
-                children: [
-                    ['/Thought/YearReview/2018', '2018年'],
-                    ['/Thought/YearReview/2019', '2019年']
-                ]
-            },
-        ],
-        // 打开Store主页链接时生成下面这个菜单
-        // '/Store/': [
-        //     ['', '仓库首页'],
-        //     {
-        //         title: '应用',
-        //         children: [
-        //             ['/Store/Apps/DownDoors', '下载门户'],
-        //             ['/Store/Apps/OwnTest', '博主测评']
-        //         ]
-        //     },
-        //     {
-        //         title: '电影',
-        //         children: [
-        //             ['/Store/Films/', '收藏级电影']
-        //         ]
-        //     },
-        //     {
-        //         title: '动画',
-        //         children: [
-        //             ['/Store/Anime/', '收藏级动画']
-        //         ]
-        //     },
-        // ]
-    }
+            }
+        ]
+    },
 }
