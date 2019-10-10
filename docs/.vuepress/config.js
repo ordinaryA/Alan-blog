@@ -16,11 +16,10 @@ module.exports = {
         lineNumbers: true // 代码块显示行号
     },
 
-
-
     // 主题参数 顶部导航栏
     themeConfig: {
-        sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
+        displayAllHeaders: true,
+        // sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
         lastUpdated: '最后更新', // 文档更新时间：每个文件git最后提交的时间,
         // 顶部导航栏
         nav: [{
