@@ -1,12 +1,16 @@
 module.exports = {
-    title: "前端蜗牛路",
-    description: "郭邯同学的个人博客",
+    title: "Alan Blog",
+    description: "Alan Blog",
     head: [
+        // 增加一个自定义的 favicon(网页标签的图标)
+        // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
+        // 即 docs/.vuepress/public/img/geass-bg.ico
         ['link', {
             rel: 'icon',
             href: '/favicon.ico'
         }]
     ],
+    base: '/Alan-blog/', // 这是部署到github相关的配置
     themeConfig: {
         nav: [{
                 text: '首页',
