@@ -1,3 +1,0 @@
-# beiPing
-## beiPing
-### beiPing
