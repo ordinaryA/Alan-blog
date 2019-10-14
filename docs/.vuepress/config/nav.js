@@ -3,24 +3,17 @@ const nav = [{
         link: '/'
     }, // 内部链接 以docs为根目录
     {
-        text: '文章',
-        items: [{
-            text: '软技能',
-            link: '/softskill/'
-        }]
-    },
-    {
         text: '大前端',
         items: [{
                 text: '基础',
                 items: [{
                         text: 'Javascript',
-                        link: '/Javascript/'
+                        link: '/大前端/01.Javascript/01.正则表达式'
                     },
                     {
                         text: 'ES6',
-                        link: '/ES6/'
-                    }
+                        link: '/大前端/02.ES6/01.ES6'
+                    },
                 ]
             },
             {
