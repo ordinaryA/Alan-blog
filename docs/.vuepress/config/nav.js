@@ -8,11 +8,11 @@ const nav = [{
                 text: '基础',
                 items: [{
                         text: 'Javascript',
-                        link: '/大前端/01.Javascript/01.正则表达式'
+                        link: '/大前端/01.Javascript/01.正则表达式',
                     },
                     {
                         text: 'ES6',
-                        link: '/大前端/02.ES6/01.ES6'
+                        link: '/大前端/02.ES6/01.ES6',
                     },
                 ]
             },
@@ -20,11 +20,11 @@ const nav = [{
                 text: '框架',
                 items: [{
                         text: 'Vue',
-                        link: '/Vue/'
+                        link: '/Vue/',
                     },
                     {
                         text: 'React',
-                        link: '/React/'
+                        link: '/React/',
                     }
                 ]
             },
@@ -32,17 +32,17 @@ const nav = [{
     },
     {
         text: '随笔',
-        link: '/jottings/'
+        link: '/随笔/01.将故事写成我们.md',
     },
     {
         text: '关于作者',
         items: [{
                 text: 'GitHub',
-                link: 'https://github.com/ordinaryA'
+                link: 'https://github.com/ordinaryA',
             },
             {
                 text: '掘金',
-                link: 'https://juejin.im/user/5c38537d518825260d7ec96c'
+                link: 'https://juejin.im/user/5c38537d518825260d7ec96c',
             }
         ]
     },

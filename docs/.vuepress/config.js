@@ -1,5 +1,6 @@
 const sidebar = require('./config/sidebar');
 const nav = require('./config/nav');
+
 module.exports = {
     title: "Alan Blog",
     description: "Alan Blog",

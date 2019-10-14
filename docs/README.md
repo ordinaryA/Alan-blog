@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.jpg
+heroImage: /img/favorite.png
 actionText: 前往 →
 actionLink: /baseComponents/
 features:
