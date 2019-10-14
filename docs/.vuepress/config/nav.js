@@ -5,31 +5,54 @@ const nav = [{
     {
         text: '文章',
         items: [{
-                text: '软技能',
-                link: '/softskill/'
+            text: '软技能',
+            link: '/softskill/'
+        }]
+    },
+    {
+        text: '大前端',
+        items: [{
+                text: '基础',
+                items: [{
+                        text: 'Javascript',
+                        link: '/Javascript/'
+                    },
+                    {
+                        text: 'ES6',
+                        link: '/ES6/'
+                    }
+                ]
             },
             {
-                text: 'webgl',
-                link: '/webgl/'
-            }
+                text: '框架',
+                items: [{
+                        text: 'Vue',
+                        link: '/Vue/'
+                    },
+                    {
+                        text: 'React',
+                        link: '/React/'
+                    }
+                ]
+            },
         ]
     },
     {
-        text: '掘金',
-        link: 'https://juejin.im/user/5b0f41de518825153a440dd9'
+        text: '随笔',
+        link: '/jottings/'
     },
     {
-        text: 'GitHub',
-        link: 'https://github.com/ggwork'
+        text: '关于作者',
+        items: [{
+                text: 'GitHub',
+                link: 'https://github.com/ordinaryA'
+            },
+            {
+                text: '掘金',
+                link: 'https://juejin.im/user/5c38537d518825260d7ec96c'
+            }
+        ]
     },
-    {
-        text: '知乎',
-        link: 'https://www.zhihu.com/people/yagb/activities'
-    },
-    {
-        text: '女朋友',
-        link: '/girlfriend/'
-    }
 ];
 
 module.exports = nav;
