@@ -8,11 +8,11 @@ const nav = [{
                 text: '基础',
                 items: [{
                         text: 'Javascript',
-                        link: '/大前端/01.Javascript/01.正则表达式',
+                        link: '/PAGE/2019-10-14-js-reg/',
                     },
                     {
                         text: 'ES6',
-                        link: '/大前端/02.ES6/01.ES6',
+                        link: '/PAGE/2019-10-14-es6/',
                     },
                 ]
             },
@@ -20,11 +20,11 @@ const nav = [{
                 text: '框架',
                 items: [{
                         text: 'Vue',
-                        link: '/Vue/',
+                        link: '/PAGE/2019-10-14-vue-mixin/',
                     },
                     {
                         text: 'React',
-                        link: '/React/',
+                        link: '/PAGE/2019-10-14-react-personal/',
                     }
                 ]
             },
@@ -32,7 +32,7 @@ const nav = [{
     },
     {
         text: '随笔',
-        link: '/随笔/01.将故事写成我们.md',
+        link: '/PAGE/2019-10-14-note-01/',
     },
     {
         text: '关于作者',

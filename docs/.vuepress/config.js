@@ -21,5 +21,8 @@ module.exports = {
         lastUpdated: '最后更新', // 文档更新时间：每个文件git最后提交的时间,
         nav, //导航
         sidebar, //侧边栏
-    }
+    },
+    plugins: [
+        require('./plugins/routeConfig'),
+    ],
 }
