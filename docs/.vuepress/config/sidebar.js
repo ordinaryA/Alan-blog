@@ -30,21 +30,22 @@ const 大前端 = [{
 ];
 
 const 随笔 = [{
-    title: "Vue",
-    collapsable: false,
-    children: [
-        ['01.游戏.md', '小游戏'],
-        ['02.聊天室', '聊天室'],
-    ],
-}];
-
-const 尝试 = [{
-    title: "尝试",
+    title: "林俊杰",
     collapsable: false,
     children: [
         ['01.将故事写成我们.md', '将故事写成我们'],
     ],
-}]
+}];
+
+const 尝试 = [{
+        title: "神奇的Vue",
+        collapsable: false,
+        children: [
+            ['01.游戏.md', '小游戏'],
+            ['02.聊天室.md', '聊天室'],
+        ],
+    },
+]
 
 
 module.exports = {
