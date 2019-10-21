@@ -30,15 +30,25 @@ const 大前端 = [{
 ];
 
 const 随笔 = [{
-    title: "林俊杰",
+    title: "Vue",
+    collapsable: false,
+    children: [
+        ['01.游戏.md', '小游戏'],
+        ['02.聊天室', '聊天室'],
+    ],
+}];
+
+const 尝试 = [{
+    title: "尝试",
     collapsable: false,
     children: [
         ['01.将故事写成我们.md', '将故事写成我们'],
     ],
-}, ]
+}]
 
 
 module.exports = {
     '/大前端/': 大前端,
     '/随笔/': 随笔,
+    '/尝试/': 尝试,
 }
