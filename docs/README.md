@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/favorite.png
-actionText: 前往 →
-actionLink: /baseComponents/
+actionText: 摸鱼🐟
+actionLink: /PAGE/2019-10-14-js-func-code/
 features:
 - title: 布局类组件
   details: 基本组件，为常用组件提供快速，可用的组件
