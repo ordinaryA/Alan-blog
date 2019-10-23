@@ -34,7 +34,7 @@ const nav = [{
         text: '尝试',
         items: [{
                 text: '一些用Vue写的游戏',
-                link: '/PAGE/2019-10-14-awesomeGame/',
+                link: 'PAGE/2019-10-23-before/',
             },
             {
                 text: '用Vue写的聊天室',

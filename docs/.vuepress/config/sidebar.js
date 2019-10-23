@@ -38,11 +38,20 @@ const 随笔 = [{
 }];
 
 const 尝试 = [{
-        title: "神奇的Vue",
+        title: "小游戏",
         collapsable: false,
         children: [
-            ['01.游戏.md', '小游戏'],
-            ['02.聊天室.md', '聊天室'],
+            ['01.前言.md', '前言'],
+            ['02.扫雷.md', '扫雷'],
+            ['03.管道小鸟.md', '管道小鸟'],
+            ['04.贪吃蛇.md', '贪吃蛇'],
+        ],
+    },
+    {
+        title: "聊天室",
+        collapsable: false,
+        children: [
+            ['05.聊天室.md', '聊天室'],
         ],
     },
 ]
