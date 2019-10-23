@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/favorite.png
 actionText: 摸鱼🐟🐟🐟
-actionLink: /PAGE/2019-10-14-js-func-code/
+actionLink: /PAGE/2019-10-23-touch-fish-hhhh/
 features:
 - title: 大前端
   details: 批判的武器不能代替武器的批判
