@@ -10,7 +10,7 @@ module.exports = {
         // 即 docs/.vuepress/public/img/geass-bg.ico
         ['link', {
             rel: 'icon',
-            href: '/favicon.ico'
+            href: '/img/poison.ico'
         }]
     ],
     base: '/Alan-blog/', // 这是部署到github相关的配置
