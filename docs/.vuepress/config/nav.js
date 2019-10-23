@@ -33,18 +33,32 @@ const nav = [{
     {
         text: '尝试',
         items: [{
-                text: '一些用Vue写的游戏',
+                text: '小游戏',
                 link: 'PAGE/2019-10-23-before/',
             },
             {
-                text: '用Vue写的聊天室',
+                text: '聊天室',
                 link: '/PAGE/2019-10-14-myChat/',
             }
         ]
     },
     {
-        text: '随笔',
-        link: '/PAGE/2019-10-14-note-01/',
+        text: '其他',
+        items: [{
+                text: '随笔',
+                items: [{
+                    text: '林俊杰',
+                    link: '/PAGE/2019-10-14-note-01/',
+                }]
+            },
+            {
+                text: '开发管理',
+                items: [{
+                    text: 'Git',
+                    link: '/PAGE/2019-10-23-git-contribution/',
+                }]
+            },
+        ]
     },
     {
         text: '关于作者',
