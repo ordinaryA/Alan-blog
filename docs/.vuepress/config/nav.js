@@ -49,8 +49,8 @@ const nav = [
             {
                 text: '上班摸鱼',
                 items: [{
-                    text: '摸鱼，是员工给公司的福报',
-                    link: '/PAGE/2019-10-14-note-01/',
+                    text: '摸鱼，是员工...',
+                    link: '/PAGE/2019-10-23-touch-fish-hhhh/',
                 }]
             },
             // {
