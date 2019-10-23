@@ -34,7 +34,7 @@ const nav = [{
         text: '尝试',
         items: [{
                 text: '小游戏',
-                link: 'PAGE/2019-10-23-before/',
+                link: '/PAGE/2019-10-23-before/',
             },
             {
                 text: '聊天室',
