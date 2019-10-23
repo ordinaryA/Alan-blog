@@ -1,7 +1,8 @@
-const nav = [{
-        text: '首页',
-        link: '/'
-    }, // 内部链接 以docs为根目录
+const nav = [
+    // {
+    //     text: '首页',
+    //     link: '/'
+    // }, // 内部链接 以docs为根目录
     {
         text: '大前端',
         items: [{
@@ -31,7 +32,7 @@ const nav = [{
         ]
     },
     {
-        text: '尝试',
+        text: '练习',
         items: [{
                 text: '小游戏',
                 link: '/PAGE/2019-10-23-before/',
@@ -40,6 +41,25 @@ const nav = [{
                 text: '聊天室',
                 link: '/PAGE/2019-10-14-myChat/',
             }
+        ]
+    },
+    {
+        text: '摸鱼',
+        items: [
+            {
+                text: '上班摸鱼',
+                items: [{
+                    text: '摸鱼，是员工给公司的福报',
+                    link: '/PAGE/2019-10-14-note-01/',
+                }]
+            },
+            // {
+            //     text: '开发管理',
+            //     items: [{
+            //         text: 'Git',
+            //         link: '/PAGE/2019-10-23-git-contribution/',
+            //     }]
+            // },
         ]
     },
     {

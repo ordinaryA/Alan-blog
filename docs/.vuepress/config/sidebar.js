@@ -37,7 +37,7 @@ const 随笔 = [{
     ],
 }];
 
-const 尝试 = [{
+const 练习 = [{
         title: "小游戏",
         collapsable: false,
         children: [
@@ -60,5 +60,5 @@ const 尝试 = [{
 module.exports = {
     '/大前端/': 大前端,
     '/随笔/': 随笔,
-    '/尝试/': 尝试,
+    '/练习/': 练习,
 }

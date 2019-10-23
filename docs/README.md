@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: /img/favorite.png
-actionText: 摸鱼🐟
+actionText: 摸鱼🐟🐟🐟
 actionLink: /PAGE/2019-10-14-js-func-code/
 features:
-- title: 布局类组件
-  details: 基本组件，为常用组件提供快速，可用的组件
-- title: 可视化组件
-  details: 积累将数据可视化的业务组件
-- title: 知识库
-  details: 积累前端相关的知识，涵盖 vue、react、koa2、nodejs 相关的知识点
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 大前端
+  details: 批判的武器不能代替武器的批判
+- title: 练习
+  details: 埋伏五百刀斧手于帐后，以摔杯为号
+- title: 摸鱼
+  details: 摸鱼，是员工给公司的福报
+footer: Awesome...
 ---

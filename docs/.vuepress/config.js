@@ -2,8 +2,8 @@ const sidebar = require('./config/sidebar');
 const nav = require('./config/nav');
 
 module.exports = {
-    title: "Alan Blog",
-    description: "Alan Blog",
+    title: "不是博客",
+    description: "不是博客",
     head: [
         // 增加一个自定义的 favicon(网页标签的图标)
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
