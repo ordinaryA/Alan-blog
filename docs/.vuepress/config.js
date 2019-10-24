@@ -13,7 +13,7 @@ module.exports = {
             href: '/img/witch.ico'
         }]
     ],
-    base: '/blog', // 这是部署到github相关的配置
+    base: '/blog/', // 这是部署到github相关的配置
     // 顶部导航栏
     themeConfig: {
         displayAllHeaders: true,
