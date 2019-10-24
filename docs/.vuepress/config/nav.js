@@ -45,8 +45,7 @@ const nav = [
     },
     {
         text: '摸鱼',
-        items: [
-            {
+        items: [{
                 text: '上班摸鱼',
                 items: [{
                     text: '摸鱼，是员工...',
@@ -67,9 +66,14 @@ const nav = [
         items: [{
                 text: '随笔',
                 items: [{
-                    text: '林俊杰',
-                    link: '/PAGE/2019-10-14-note-01/',
-                }]
+                        text: '今天是程序员节',
+                        link: '/PAGE/2019-10-24-today-code/',
+                    },
+                    {
+                        text: '讲故事写成我们',
+                        link: '/PAGE/2019-10-14-note-02/',
+                    },
+                ]
             },
             {
                 text: '开发管理',

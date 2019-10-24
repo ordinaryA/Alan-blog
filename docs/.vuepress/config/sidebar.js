@@ -30,7 +30,7 @@ const 大前端 = [{
 ];
 
 const 随笔 = [{
-    title: "林俊杰",
+    title: "随笔",
     collapsable: false,
     children: [
         ['01.今天是程序员节.md', '今天是程序员节'],
