@@ -5,15 +5,13 @@ module.exports = {
     title: "不是博客",
     description: "不是博客",
     head: [
-        // 增加一个自定义的 favicon(网页标签的图标)
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
-        // 即 docs/.vuepress/public/img/geass-bg.ico
         ['link', {
             rel: 'icon',
             href: '/img/witch.ico'
         }]
     ],
-    base: '/blog/', // 这是部署到github相关的配置
+    base: '/blog/', // 部署到github会用到的配置
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
