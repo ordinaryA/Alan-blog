@@ -78,9 +78,14 @@ const nav = [
             {
                 text: '开发管理',
                 items: [{
-                    text: 'Git',
-                    link: '/PAGE/2019-10-23-git-contribution/',
-                }]
+                        text: 'Git',
+                        link: '/PAGE/2019-10-23-git-contribution/',
+                    },
+                    {
+                        text: '搭建自己的博客',
+                        link: '/PAGE/2019-10-25-build-blog/',
+                    },
+                ]
             },
         ]
     },

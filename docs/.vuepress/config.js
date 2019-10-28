@@ -14,6 +14,9 @@ module.exports = {
         }]
     ],
     base: '/blog/', // 这是部署到github相关的配置
+    markdown: {
+        lineNumbers: true // 代码块显示行号
+    },
     // 顶部导航栏
     themeConfig: {
         displayAllHeaders: true,
