@@ -1,8 +1,8 @@
 const nav = [
-    // {
-    //     text: '首页',
-    //     link: '/'
-    // }, // 内部链接 以docs为根目录
+    {
+        text: '首页',
+        link: '/'
+    },
     {
         text: '大前端',
         items: [{

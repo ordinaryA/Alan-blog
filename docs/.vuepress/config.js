@@ -1,5 +1,6 @@
 const sidebar = require('./config/sidebar');
 const nav = require('./config/nav');
+const routeConfig = require('./plugins/routeConfig');
 
 module.exports = {
     title: "不是博客",
@@ -17,13 +18,13 @@ module.exports = {
     },
     // 顶部导航栏
     themeConfig: {
-        displayAllHeaders: true,
-        // sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
+        displayAllHeaders: true, //展开侧边栏所有的小标题
+        sidebarDepth: 1, //提取markdown中h2标题，作为小标题显示在侧边栏上。
         lastUpdated: '最后更新', // 文档更新时间：每个文件git最后提交的时间,
         nav, //导航
         sidebar, //侧边栏
     },
     plugins: [
-        require('./plugins/routeConfig'),
+        routeConfig,
     ],
 }
