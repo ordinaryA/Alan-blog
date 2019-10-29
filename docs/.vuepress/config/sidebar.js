@@ -65,10 +65,19 @@ const 摸鱼 = [{
     ],
 }, ];
 
+const 其他 = [{
+    title: "开发利器",
+    collapsable: false,
+    children: [
+        ['02.Vuepress/02.Vuepress.md', '搭建一个Vue风格的博客'],
+    ],
+}, ];
+
 
 module.exports = {
     '/大前端/': 大前端,
     '/随笔/': 随笔,
     '/练习/': 练习,
     '/摸鱼/': 摸鱼,
+    '/其他/': 其他,
 }
