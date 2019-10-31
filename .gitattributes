@@ -1,4 +1,4 @@
-*.css linguist-language=SB语言
-*.html linguist-language=SB语言
-*.sh linguist-language=SB语言
-*.md linguist-language=SB语言
+*.css linguist-language=JavaScript
+*.html linguist-language=JavaScript
+*.sh linguist-language=JavaScript
+*.md linguist-language=JavaScript
