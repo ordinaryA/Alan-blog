@@ -52,13 +52,6 @@ const nav = [
                     link: '/PAGE/2019-10-23-touch-fish-hhhh/',
                 }]
             },
-            // {
-            //     text: '开发管理',
-            //     items: [{
-            //         text: 'Git',
-            //         link: '/PAGE/2019-10-23-git-contribution/',
-            //     }]
-            // },
         ]
     },
     {
@@ -76,7 +69,7 @@ const nav = [
                 ]
             },
             {
-                text: '开发管理',
+                text: '开发利器',
                 items: [{
                         text: 'Git',
                         link: '/PAGE/2019-10-23-git-contribution/',
