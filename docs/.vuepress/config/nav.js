@@ -1,5 +1,4 @@
-const nav = [
-    {
+const nav = [{
         text: '首页',
         link: '/'
     },
@@ -46,29 +45,16 @@ const nav = [
     {
         text: '摸鱼',
         items: [{
-                text: '上班摸鱼',
-                items: [{
-                    text: '摸鱼，是员工...',
-                    link: '/PAGE/2019-10-23-touch-fish-hhhh/',
-                }]
-            },
-        ]
+            text: '上班摸鱼',
+            items: [{
+                text: '摸鱼，是员工...',
+                link: '/PAGE/2019-10-23-touch-fish-hhhh/',
+            }]
+        }, ]
     },
     {
         text: '其他',
         items: [{
-                text: '随笔',
-                items: [{
-                        text: '今天是程序员节',
-                        link: '/PAGE/2019-10-24-today-code/',
-                    },
-                    {
-                        text: '讲故事写成我们',
-                        link: '/PAGE/2019-10-14-note-02/',
-                    },
-                ]
-            },
-            {
                 text: '开发利器',
                 items: [{
                         text: 'Git',
@@ -80,6 +66,19 @@ const nav = [
                     },
                 ]
             },
+            {
+                text: '随笔',
+                items: [{
+                        text: '今天是程序员节',
+                        link: '/PAGE/2019-10-24-today-code/',
+                    },
+                    {
+                        text: '讲故事写成我们',
+                        link: '/PAGE/2019-10-14-note-02/',
+                    },
+                ]
+            },
+
         ]
     },
     {
