@@ -69,7 +69,7 @@ const 其他 = [{
         title: "Git命令",
         collapsable: false,
         children: [
-            ['01.Git/01.GitHub贡献不增加.md', 'GitHub贡献不增加'],
+            ['01.Git/01.GitHub贡献不增加.md', 'GitHub"小绿格"不增加'],
         ],
     },
     ["02.Vuepress/02.Vuepress.md", "搭建一个Vue风格的博客"],
