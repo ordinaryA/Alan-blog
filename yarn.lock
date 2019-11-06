@@ -7076,6 +7076,14 @@ vuepress-plugin-container@^2.0.0:
   dependencies:
     markdown-it-container "^2.0.0"
 
+vuepress-plugin-helper-live2d@^1.0.0:
+  version "1.0.0"
+  resolved "http://10.8.90.69:9527/vuepress-plugin-helper-live2d/-/vuepress-plugin-helper-live2d-1.0.0.tgz#f6dfd421d085aa16833ed04b103c7e7522ead7ee"
+  integrity sha512-Rpjorsfx5kMAKclcau0WPlbItZR1Pk+6nMl9HeQSLPkG/NW/7N0C7kMV3rtYvLlcx1irX8bsdnq6aBFizDSCVg==
+  dependencies:
+    chalk "^2.4.2"
+    lodash "^4.17.15"
+
 vuepress@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.1.0.tgz#ca0d787d93188b2fd05820a650d7e3643c9e7675"

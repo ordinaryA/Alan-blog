@@ -11,6 +11,7 @@
     "d": "./deploy.sh"
   },
   "dependencies": {
-    "vuepress": "^1.1.0"
+    "vuepress": "^1.1.0",
+    "vuepress-plugin-helper-live2d": "^1.0.0"
   }
 }
