@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /docs/.vuepress/dist/
+/docs/.vuepress/public/live2d/
 
 # testing
 /coverage
