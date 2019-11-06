@@ -1,31 +1,32 @@
-const nav = [{
-    text: '大前端',
-    items: [{
-        text: '基础',
-        items: [{
-            text: 'Javascript',
-            link: '/PAGE/2019-10-14-js-func-code/',
-          },
-          {
-            text: 'ES6',
-            link: '/PAGE/2019-10-14-es6/',
-          },
-        ]
-      },
-      {
-        text: '框架',
-        items: [{
-            text: 'Vue',
-            link: '/PAGE/2019-10-14-vue-mixin/',
-          },
-          {
-            text: 'React',
-            link: '/PAGE/2019-10-14-react-personal/',
-          }
-        ]
-      },
-    ]
-  },
+const nav = [
+  // {
+  //   text: '大前端',
+  //   items: [{
+  //       text: '基础',
+  //       items: [{
+  //           text: 'Javascript',
+  //           link: '/PAGE/2019-10-14-js-func-code/',
+  //         },
+  //         {
+  //           text: 'ES6',
+  //           link: '/PAGE/2019-10-14-es6/',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       text: '框架',
+  //       items: [{
+  //           text: 'Vue',
+  //           link: '/PAGE/2019-10-14-vue-mixin/',
+  //         },
+  //         {
+  //           text: 'React',
+  //           link: '/PAGE/2019-10-14-react-personal/',
+  //         }
+  //       ]
+  //     },
+  //   ]
+  // },
   {
     text: '练习',
     items: [{
