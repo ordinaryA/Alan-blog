@@ -2,6 +2,7 @@ const sidebar = require('./config/sidebar');
 const nav = require('./config/nav');
 const routeConfig = require('./plugins/routeConfig');
 const live2D = require('./plugins/live2D');
+const imgZoom = require('./plugins/imgZoom');
 
 module.exports = {
   title: "不是博客",
@@ -28,5 +29,6 @@ module.exports = {
   plugins: [
     routeConfig,
     live2D,
+    imgZoom,
   ],
 }

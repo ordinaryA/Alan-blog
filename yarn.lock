@@ -7084,6 +7084,13 @@ vuepress-plugin-helper-live2d@^1.0.0:
     chalk "^2.4.2"
     lodash "^4.17.15"
 
+vuepress-plugin-zooming@^1.1.5:
+  version "1.1.5"
+  resolved "http://10.8.90.69:9527/vuepress-plugin-zooming/-/vuepress-plugin-zooming-1.1.5.tgz#5e4b23b1d40346783ec102a834cf2b33d5776acf"
+  integrity sha512-+jml2yJ14+ubd8HPkDg3jLCIjUuK5NJI2xFEfsVck1oKxeKkmgIAhJRGUIa35XHmyiHwL5LQNo0U1SSHESrR0w==
+  dependencies:
+    zooming "^2.1.1"
+
 vuepress@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.1.0.tgz#ca0d787d93188b2fd05820a650d7e3643c9e7675"
@@ -7359,3 +7366,8 @@ zepto@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/zepto/-/zepto-1.2.0.tgz#e127bd9e66fd846be5eab48c1394882f7c0e4f98"
   integrity sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g=
+
+zooming@^2.1.1:
+  version "2.1.1"
+  resolved "http://10.8.90.69:9527/zooming/-/zooming-2.1.1.tgz#3e05006b4e10335235ca626244d053d90a9c7e72"
+  integrity sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==
