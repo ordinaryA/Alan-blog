@@ -58,6 +58,10 @@ const nav = [
             link: '/PAGE/2019-10-23-git-contribution/',
           },
           {
+            text: 'Emoji表情',
+            link: '/PAGE/2019-11-20-git-emoji/',
+          },
+          {
             text: '搭建自己的博客',
             link: '/PAGE/2019-10-25-build-blog/',
           },
