@@ -2,7 +2,7 @@
 
 ## 💌 我的博客
 
-项目地址：[http://www.almx.top/blog](http://www.almx.top/blog)
+> 项目地址：[http://www.almx.top/blog](http://www.almx.top/blog)
 
 ## 🌐 最近更新
 
