@@ -6,7 +6,7 @@
 
 ## 🌐 最近更新
 
--  **大前端**
+- **大前端**
   - [《01.函数式编程》](http://www.almx.top/blog/PAGE/2019-10-14-js-func-code)
   - [《02.正则表达式》](http://www.almx.top/blog/PAGE/2019-10-14-js-reg)
   - [《03.什么是闭包》](http://www.almx.top/blog/PAGE/2019-11-11-js-scope)
