@@ -6,5 +6,5 @@
 
 ## 最近更新
 
-- 大前端
-  - 《[01.函数式编程](http://www.almx.top/blog)》
+- **大前端**
+  - [《01.函数式编程》](http://www.almx.top/blog)
