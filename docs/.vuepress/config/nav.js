@@ -5,7 +5,7 @@ const nav = [
         text: '基础',
         items: [{
             text: 'Javascript',
-            link: '/PAGE/2019-10-14-js-func-code/',
+            link: '/PAGE/2019-10-14-js-reg/',
           },
           {
             text: 'ES6',
