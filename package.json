@@ -1,6 +1,7 @@
 {
   "name": "my-blog",
   "version": "1.0.0",
+  "description": "不是博客",
   "main": "index.js",
   "repository": "https://github.com/ordinaryA/Learn-React.git",
   "author": "ordinaryA <353458582@qq.com>",
@@ -12,6 +13,7 @@
   },
   "dependencies": {
     "vuepress": "^1.1.0",
+    "vuepress-plugin-comment": "^0.7.2",
     "vuepress-plugin-helper-live2d": "^1.0.0",
     "vuepress-plugin-zooming": "^1.1.5"
   }
