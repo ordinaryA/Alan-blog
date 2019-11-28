@@ -3,6 +3,7 @@ const nav = require('./config/nav');
 const routeConfig = require('./plugins/routeConfig');
 const live2D = require('./plugins/live2D');
 const imgZoom = require('./plugins/imgZoom');
+const comment = require('./plugins/comment');
 
 module.exports = {
   title: "不是博客",
@@ -30,5 +31,6 @@ module.exports = {
     routeConfig,
     live2D,
     imgZoom,
+    comment,
   ],
 }
