@@ -12,7 +12,7 @@ const comment = [
             distractionFreeMode: false,  // Facebook-like distraction free mode
             labels: ['Gitalk', 'Comment'],
             title: '「评论」<%- frontmatter.title %>',
-            body: '<%- frontmatter.title %>：<%- window.location.origin %><%- frontmatter.to.path || window.location.pathname %>'
+            body: '<%- frontmatter.title %>：<%- window.location.origin %>/blog<%- frontmatter.to.path || window.location.pathname %>'
         }
     }
 ];
