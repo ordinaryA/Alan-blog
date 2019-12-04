@@ -74,6 +74,7 @@ const 其他 = [{
     ],
   },
   ["02.Vuepress/02.Vuepress.md", "搭建一个Vue风格的博客"],
+  ["03.Nginx/01.NGINX 反向代理.md", "【小哥哥, 跨域要不要了解下】NGINX 反向代理"],
 ];
 
 

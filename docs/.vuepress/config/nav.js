@@ -65,6 +65,10 @@ const nav = [
             text: '搭建自己的博客',
             link: '/PAGE/2019-10-25-build-blog/',
           },
+          {
+            text: '小哥哥, 跨域要不要了解下',
+            link: '/PAGE/2019-12-04-nginx-1/',
+          }
         ]
       },
       {
