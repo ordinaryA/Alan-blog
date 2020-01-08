@@ -73,7 +73,12 @@ const nav = [
       },
       {
         text: '随笔',
-        items: [{
+        items: [
+          {
+            text: '好玩的接口',
+            link: '/PAGE/2020-01-08-interest-API/',
+          },
+          {
             text: '今天是程序员节',
             link: '/PAGE/2019-10-24-today-code/',
           },
