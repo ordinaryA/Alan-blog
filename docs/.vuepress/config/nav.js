@@ -1,5 +1,4 @@
-const nav = [
-  {
+const nav = [{
     text: '大前端',
     items: [{
         text: '基础',
@@ -40,13 +39,18 @@ const nav = [
     ]
   },
   {
-    text: '摸鱼',
+    text: '冲浪',
     items: [{
-      text: '上班摸鱼',
+      text: '趣文',
       items: [{
-        text: '摸鱼，是员工...',
-        link: '/PAGE/2019-10-23-touch-fish-hhhh/',
-      }]
+          text: '摸鱼，是员工给公司的福报',
+          link: '/PAGE/2019-10-23-touch-fish-hhhh/',
+        },
+        {
+          text: '电击、警棍、爆头，被骗去柬埔寨的程序员有多惨',
+          link: '/PAGE/2019-10-23-touch-fish-hhhh/',
+        },
+      ]
     }, ]
   },
   {
@@ -73,8 +77,7 @@ const nav = [
       },
       {
         text: '随笔',
-        items: [
-          {
+        items: [{
             text: '好玩的接口',
             link: '/PAGE/2020-01-08-interest-API/',
           },
