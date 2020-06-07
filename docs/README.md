@@ -8,8 +8,8 @@ features:
   details: 埋伏五百刀斧手于帐后，以摔杯为号
 - title: 练习
   details: 批判的武器不能代替武器的批判
-- title: 摸鱼
-  details: 摸鱼，是员工给公司的福报
+- title: 冲浪
+  details: 冲浪普拉斯
 footer: Alan-blog
 ---
 
@@ -41,3 +41,4 @@ footer: Alan-blog
 
 - **冲浪**
   - [《01.摸鱼，是员工给公司的福报》](http://www.almx.top/blog/PAGE/2019-10-23-touch-fish-hhhh)
+  - [《02.电击、警棍、爆头，被骗去柬埔寨的程序员有多惨》](http://www.almx.top/blog/PAGE/2020-6-7-jpz)
