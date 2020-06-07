@@ -48,7 +48,7 @@ const nav = [{
         },
         {
           text: '电击、警棍、爆头，被骗去柬埔寨的程序员有多惨',
-          link: '/PAGE/2019-10-23-touch-fish-hhhh/',
+          link: '/PAGE/2020-6-7-jpz/',
         },
       ]
     }, ]
