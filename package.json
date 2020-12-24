@@ -7,7 +7,7 @@
   "author": "ordinaryA <353458582@qq.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "d": "./deploy.sh"
   },

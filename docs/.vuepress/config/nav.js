@@ -1,8 +1,11 @@
-const nav = [{
+const nav = [
+  {
     text: '大前端',
-    items: [{
+    items: [
+      {
         text: '基础',
-        items: [{
+        items: [
+          {
             text: 'Javascript',
             link: '/PAGE/2019-10-14-js-reg/',
           },
@@ -12,23 +15,29 @@ const nav = [{
           },
         ]
       },
-      // {
-      //   text: '框架',
-      //   items: [{
-      //       text: 'Vue',
-      //       link: '/PAGE/2019-10-14-vue-mixin/',
-      //     },
-      //     {
-      //       text: 'React',
-      //       link: '/PAGE/2019-10-14-react-personal/',
-      //     }
-      //   ]
-      // },
+    ],
+  },
+  {
+    text: 'BUG录',
+    items: [
+      {
+        text: '框架',
+        link: '/PAGE/2020-12-24-bug-frame/',
+      },
+      {
+        text: '组件库',
+        link: '/PAGE/2020-12-24-bug-component/',
+      },
+      {
+        text: 'Git',
+        link: '/PAGE/2020-12-24-bug-Git/',
+      },
     ]
   },
   {
     text: '练习',
-    items: [{
+    items: [
+      {
         text: '小游戏',
         link: '/PAGE/2019-10-23-before/',
       },
@@ -40,24 +49,29 @@ const nav = [{
   },
   {
     text: '冲浪',
-    items: [{
-      text: '趣文',
-      items: [{
-          text: '摸鱼，是员工给公司的福报',
-          link: '/PAGE/2019-10-23-touch-fish-hhhh/',
-        },
-        {
-          text: '电击、警棍、爆头，被骗去柬埔寨的程序员有多惨',
-          link: '/PAGE/2020-6-7-jpz/',
-        },
-      ]
-    }, ]
+    items: [
+      {
+        text: '趣文',
+        items: [
+          {
+            text: '摸鱼，是员工给公司的福报',
+            link: '/PAGE/2019-10-23-touch-fish-hhhh/',
+          },
+          {
+            text: '电击、警棍、爆头，被骗去柬埔寨的程序员有多惨',
+            link: '/PAGE/2020-6-7-jpz/',
+          },
+        ],
+      },
+    ]
   },
   {
     text: '其他',
-    items: [{
+    items: [
+      {
         text: '开发利器',
-        items: [{
+        items: [
+          {
             text: 'Git',
             link: '/PAGE/2019-10-23-git-contribution/',
           },
@@ -72,12 +86,13 @@ const nav = [{
           {
             text: '小哥哥, 跨域要不要了解下',
             link: '/PAGE/2019-12-04-nginx-1/',
-          }
+          },
         ]
       },
       {
         text: '随笔',
-        items: [{
+        items: [
+          {
             text: '好玩的接口',
             link: '/PAGE/2020-01-08-interest-API/',
           },
@@ -89,22 +104,22 @@ const nav = [{
             text: '讲故事写成我们',
             link: '/PAGE/2019-10-14-note-02/',
           },
-        ]
+        ],
       },
-
     ]
   },
   {
     text: '关于作者',
-    items: [{
+    items: [
+      {
         text: 'GitHub',
         link: 'https://github.com/ordinaryA',
       },
       {
         text: '掘金',
         link: 'https://juejin.im/user/5c38537d518825260d7ec96c',
-      }
-    ]
+      },
+    ],
   },
 ];
 
