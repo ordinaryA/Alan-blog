@@ -2,7 +2,7 @@
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="alan.l@tc-gaming.co"
+OLD_EMAIL="songyijin@douyu.tv"
 CORRECT_NAME="ordinaryA"
 CORRECT_EMAIL="353458582@qq.com"
 
